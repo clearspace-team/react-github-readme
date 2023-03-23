@@ -1,6 +1,6 @@
 {
-  "name": "react-gist",
-  "version": "1.2.4",
+  "name": "react-github-readme",
+  "version": "1.0.2",
   "description": "Github Gist React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -26,9 +26,8 @@
     "iframe"
   ],
   "author": {
-    "name": "Tommy Leunen",
-    "email": "tommy.leunen@gmail.com",
-    "url": "http://tommyleunen.com/"
+    "name": "Oliver Hill",
+    "email": "oliverhill97@gmail.com"
   },
   "license": "MIT",
   "dependencies": {},
