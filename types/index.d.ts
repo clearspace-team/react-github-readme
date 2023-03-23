@@ -1,8 +1,7 @@
 import { PureComponent } from "react";
 
 export interface GistProps {
-  id: string;
-  file?: string;
+  url: string;
 }
 
 declare class Gist extends PureComponent<GistProps, any> {}

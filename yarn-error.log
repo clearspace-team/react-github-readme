@@ -1,0 +1,85 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/19.5.0/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js publish
+
+PATH: 
+  /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.5.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:137150:13)
+      at Interface.emit (node:events:512:28)
+      at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1131:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:271:20)
+      at ReadStream.emit (node:events:512:28)
+      at emitKeys (node:internal/readline/utils:357:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:512:28)
+      at addChunk (node:internal/streams/readable:324:12)
+
+npm manifest: 
+  {
+    "name": "react-github-readme",
+    "version": "1.0.1",
+    "description": "Github Gist React component",
+    "main": "lib/index.js",
+    "module": "es/index.js",
+    "types": "types",
+    "files": [
+      "types/index.d.ts",
+      "lib",
+      "es"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/tleunen/react-gist.git"
+    },
+    "bugs": {
+      "url": "https://github.com/tleunen/react-gist/issues"
+    },
+    "homepage": "https://github.com/tleunen/react-gist",
+    "keywords": [
+      "react",
+      "react-component",
+      "gist",
+      "github",
+      "iframe"
+    ],
+    "author": {
+      "name": "Oliver Hill",
+      "email": "oliverhill97@gmail.com"
+    },
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+      "nwb": "^0.25.2",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    },
+    "peerDependencies": {
+      "react": "0.14.x || ^15.0.0-rc || ^16.0.0-rc || ^17.0.0-rc"
+    },
+    "scripts": {
+      "build": "nwb build-react-component",
+      "clean": "nwb clean-module && nwb clean-demo",
+      "start": "nwb serve-react-demo",
+      "test": "nwb test-react",
+      "test:coverage": "nwb test-react --coverage",
+      "test:watch": "nwb test-react --server"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
