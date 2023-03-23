@@ -1,6 +1,6 @@
 {
   "name": "react-github-readme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Github Gist React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -12,12 +12,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/tleunen/react-gist.git"
+    "url": "git://github.com/clearspace-team/react-github-readme.git"
   },
   "bugs": {
-    "url": "https://github.com/tleunen/react-gist/issues"
+    "url": "https://github.com/clearspace-team/react-github-readmeissues"
   },
-  "homepage": "https://github.com/tleunen/react-gist",
+  "homepage": "https://github.com/clearspace-team/react-github-readme",
   "keywords": [
     "react",
     "react-component",
